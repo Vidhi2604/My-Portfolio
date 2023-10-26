@@ -2,7 +2,7 @@
 
 This is a [Sanity](https://www.sanity.io/)  project bootstraped with [create-react-app](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-##Getting Started
+## Getting Started
 
 First run the development server.
 
@@ -10,7 +10,7 @@ First run the development server.
 npm run dev
 # or
 yarn dev
-``
+```
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Learn More
