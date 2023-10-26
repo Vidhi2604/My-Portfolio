@@ -20,4 +20,4 @@ To learn more about Sanity, take a look at the following resources:
 - [Sanity Documentation](https://www.sanity.io/docs/getting-started-with-sanity) - learn about Sanity.
 
 
-You can check out [the Sanity GitHub repository](https://github.com/orgs/sanity-io/repositories).
+- You can check out [the Sanity GitHub repository](https://github.com/orgs/sanity-io/repositories).
