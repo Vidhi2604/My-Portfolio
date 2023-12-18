@@ -1,21 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion'
-
 import { images } from '../../constants';
-
 import './About.scss';
-
 import { urlFor, client } from '../../client';
-
 import { AppWrap } from '../../wrapper';
 
-
-
-
 const About = () => {
-
   const [abouts, setAbouts] = useState([]);
-
 useEffect(() => {
   const query = '*[_type == "abouts"]';
 
@@ -24,7 +15,6 @@ useEffect(() => {
     )
  
 }, []);
-
 
   return (
     <>
@@ -54,16 +44,20 @@ useEffect(() => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-img">
-            <img src={images.ME} alt="About Image" />
+            <img src={images.ME} alt="About" />
             
           </div>
         </div>
         <div className="about__content">
             <p>
-              Hello! This is Vidhi Sahai, a FullStack Web Developer and Designer. I graduatd from Indian Institute of Technology, Guwahati with a Bachelor's degree in Electronics and Communication Engineering. I take pride in creating custom, highly-responsive websites and mobile applications using ReactJS, NodeJS, Sanity. Languages I prefer working with include Python and JavaScript.
+              Hello! This is Vidhi Sahai, a FullStack Web Developer and Designer. I graduatd from Indian Institute of Technology, Guwahati with 
+              a Bachelor's degree in Electronics and Communication Engineering. I take pride in creating custom, highly-responsive websites and 
+              mobile applications using ReactJS, NodeJS, Sanity. Languages I prefer working with include Python and JavaScript.
             <br />
             <br />
-              In my spare time, I enjoy creating beautiful mandala paintings. This hobby has given me invaluable lessons into problem-solving, consistency, honesty, and the ability to pay attention to even the smallest details. I apply these traits to my work as a software developer, tackling each assignment with the same determination and focus that I use on the Mandala paper.
+              In my spare time, I enjoy creating beautiful mandalas. This hobby has given me invaluable lessons into problem-solving, 
+              consistency, honesty, and the ability to pay attention to even the smallest details. I apply these traits to my work as a software
+               developer, tackling each assignment with the same determination and focus that I use on the Mandala paper.
             </p>
             <button><a href="#contact" className='btn btn-primary'>Let's Talk</a> </button>
         </div>
