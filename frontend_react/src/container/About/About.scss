@@ -124,10 +124,12 @@ button a{
     .about__me {
         width: 50%;
         margin: 2rem auto 4rem;
+        background: transparent;
     }
     .about__me-img {
         transform: none;
         margin-top: 7rem;
+        border-radius: 50%;
     }
     .about__content p {
         margin-top: 7rem;
@@ -142,11 +144,13 @@ button a{
     .about__me {
         width: 50%;
         margin: 2rem auto 4rem;
+        background: transparent;
     }
     .about__me-img {
         
         transform: none;
         margin-top: 10rem;
+        border-radius: 50%;
     }
     .about__content p {
         margin-top: 10rem;
