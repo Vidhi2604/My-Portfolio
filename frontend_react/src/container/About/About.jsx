@@ -50,12 +50,11 @@ useEffect(() => {
         </div>
         <div className="about__content">
             <p>
-              Hello! This is Vidhi Sahai, a FullStack Web Developer and Designer. I graduatd from Indian Institute of Technology, Guwahati with 
-              a Bachelor's degree in Electronics and Communication Engineering. I take pride in creating custom, highly-responsive websites and 
-              mobile applications using ReactJS, NodeJS, Sanity. Languages I prefer working with include Python and JavaScript.
+              Hello! This is Vidhi Sahai, a FullStack Web Developer and Designer. I graduated from the Indian Institute of Technology, Guwahati with 
+              a Bachelor's degree in Electronics and Communication Engineering. I take pride in creating custom, highly responsive websites using ReactJS, NodeJS, Sanity. Languages I prefer working with include Python and JavaScript.
             <br />
             <br />
-              In my spare time, I enjoy creating beautiful mandalas. This hobby has given me invaluable lessons into problem-solving, 
+              In my spare time, I enjoy creating beautiful mandalas. This hobby has given me invaluable lessons in problem-solving, 
               consistency, honesty, and the ability to pay attention to even the smallest details. I apply these traits to my work as a software
                developer, tackling each assignment with the same determination and focus that I use on the Mandala paper.
             </p>
