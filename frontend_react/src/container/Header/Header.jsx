@@ -24,19 +24,25 @@ const Header = () => (
       className="app__header-info"
     >
       <div className="app__header-badge">
-        <div className="badge-cmp app__flex">
-          <span>👋</span>
+        <div className="app__flex">
           <div style={{ marginLeft: 20 }}>
-            <p className="p-text">Hello, I am</p>
-            <h1 className="head-text">Vidhi</h1>
+            <p className="p-text">Hello, I am Vidhi :)</p>
+            <h1 className="head-text">Fullstack web developer & designer</h1>
           </div>
         </div>
-
-        <div className="tag-cmp app__flex">
-          <p className="p-text">Learner & Observer</p>
-          <p className="p-text">FullStack Web Developer</p>
-        </div>
       </div>
+    </motion.div>
+
+    <motion.div
+      variants={scaleVariants}
+      whileInView={scaleVariants.whileInView}
+      className="app__header-circles"
+    >
+      {[images.python, images.react, images.sass, images.node].map((circle, index) => (
+        <div className="circle-cmp app__flex" key={`circle-${index}`}>
+          <img src={circle} alt="profile_bg" />
+        </div>
+      ))}
     </motion.div>
 
     <motion.div
@@ -52,18 +58,6 @@ const Header = () => (
         alt="profile_circle"
         className="overlay_circle"
       />
-    </motion.div>
-
-    <motion.div
-      variants={scaleVariants}
-      whileInView={scaleVariants.whileInView}
-      className="app__header-circles"
-    >
-      {[images.python, images.react, images.sass, images.node].map((circle, index) => (
-        <div className="circle-cmp app__flex" key={`circle-${index}`}>
-          <img src={circle} alt="profile_bg" />
-        </div>
-      ))}
     </motion.div>
   </div>
 );
