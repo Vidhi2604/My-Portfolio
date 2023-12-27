@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+
 import { images } from '../../constants';
 import { AppWrap } from '../../wrapper';
 import { client } from '../../client';
@@ -37,16 +38,15 @@ const Contact = () => {
   return (
     <>
       <h2 className="head-text">Contact <span>Me</span></h2>
-      
 
       <div className="app__contact-cards">
         <div className="app__contact-card ">
           <img src={images.email} alt="email" />
-          <a href="mailto:vidhisahai26april@gmail.com" className="p-text">Email</a>
+          <a href="mailto:vidhisahai26april@gmail.com" className="p-text">E-mail</a>
         </div>
         <div className="app__contact-card ">
           <img src={images.github} alt="github" />
-          <a href="https://github.com/Vidhi2604" className="p-text">Github</a>
+          <a href="https://github.com/Vidhi2604" className="p-text">GitHUb</a>
         </div>
         <div className="app__contact-card">
           <img src={images.linkedin} alt="linkedin" />
@@ -61,7 +61,7 @@ const Contact = () => {
           <a href="https://instagram.com/sahaividhi" className="p-text">Instagram</a>
         </div>
       </div>
-      <p> Or send Me your message directly :)</p>
+      <p1> Or send Me your message directly :)</p1>
       {!isFormSubmitted ? (
         <div className="app__contact-form app__flex">
           <div className="app__flex">
