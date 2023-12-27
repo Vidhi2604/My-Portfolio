@@ -48,7 +48,7 @@
       padding: 1rem;
       border-radius: 10px;
       cursor: pointer;
-      background-color: #fef4f5;
+      background-color: white;
   
       transition: all 0.3s ease-in-out;
   
@@ -66,7 +66,7 @@
         font-weight: 500;
       }
       &:hover {
-        box-shadow: 0 0 25px #fef4f5;
+        box-shadow: 0 0 25px white;
       }
   
       @media screen and (max-width: 450px) {
@@ -79,10 +79,15 @@
     }
   }
 
-
+  .msg p1{
+    padding-top: 3rem;
+    font-size: 3rem;
+    color: var(--color-light);
+    align-items: center;
+  }
   
   .app__contact-cards .app__contact-card{
-    background-color: #f2f7fb;
+    background-color: white;
   }
   
   
