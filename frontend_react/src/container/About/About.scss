@@ -70,8 +70,8 @@
 .about__me {
     width: 115%;
     aspect-ratio: 1/1;
-    border-radius: 3rem;
-    background: #8a724b;
+    border-radius: 5rem;
+    background: #b785ff;
     display: grid;
     place-items: center;
     margin-top: 4rem;
@@ -80,9 +80,11 @@
 }
 
 .about__me-img {
-    border-radius: 3rem;
+    border-radius: 5rem;
     overflow: hidden;
     transform: rotate(10deg);
+    width: 100%;
+    height: 100%;
     
 }
 
@@ -98,22 +100,22 @@
 
 
 button{
-    color: #000;
+    color: #fff;
     padding: 2.5%;
     margin-bottom:5%;
-    background-color: #313bac;
+    background-color: #3b0053;
     border-radius: 10px;
     cursor: pointer;
     border: transparent;
 }
 button:hover{
-    background-color: #313bac;
+    background-color: #3b0053;
 }
 
 button a{
     font-size: 1rem;
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
 
 @media screen and (max-width:1024px) {
