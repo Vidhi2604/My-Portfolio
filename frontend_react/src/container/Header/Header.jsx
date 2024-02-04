@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-
 import { AppWrap } from '../../wrapper';
 import { images } from '../../constants';
 import './Header.scss';
@@ -27,7 +26,7 @@ const Header = () => (
         <div className="app__flex">
           <div style={{ marginLeft: 20 }}>
             <p className="p-text">Hello, I am Vidhi :)</p>
-            <h1 className="head-text">Fullstack web developer & designer</h1>
+            <h1 className="head-text">Fullstack web developer & designer!</h1>
           </div>
         </div>
       </div>
