@@ -1,5 +1,6 @@
 import React from 'react';
-import { BsLinkedin, BsGithub, BsTwitter, BsInstagram } from 'react-icons/bs';
+import { BsLinkedin, BsGithub, BsInstagram } from 'react-icons/bs';
+import { FaXTwitter } from "react-icons/fa6";
 import { HiMail } from 'react-icons/hi';
 
 const SocialMedia = () => (
@@ -21,7 +22,7 @@ const SocialMedia = () => (
     </div>
     <div>
     <a href="https://twitter.com/SahaiVidhi">
-      <BsTwitter />
+      <FaXTwitter />
     </a>
     </div>
     
