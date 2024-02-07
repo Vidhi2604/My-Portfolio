@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-
 import { images } from '../../constants';
 import { AppWrap } from '../../wrapper';
 import { client } from '../../client';
@@ -53,7 +52,7 @@ const Contact = () => {
           <a href="https://linkedin.com/in/vidhi-sahai" className="p-text">Linkedin</a>
         </div>
         <div className="app__contact-card">
-          <img src={images.twitter} alt="twitter" />
+          <img src={images.xtwitter} alt="xtwitter" />
           <a href="https://twitter.com/SahaiVidhi" className="p-text">Twitter</a>
         </div>
         <div className="app__contact-card">
